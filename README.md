@@ -1,0 +1,1 @@
+# iwakichi72.github.io
