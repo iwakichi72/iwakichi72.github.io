@@ -1,0 +1,117 @@
+{
+  "name": "Fuminori Iwaki",
+  "nameJa": "岩木 史紀",
+  "title": "Backend Engineer",
+  "titleJa": "バックエンドエンジニア",
+  "catchphrase": "ジュニア以上、ミドル未満。",
+  "summaries": {
+    "short": "Java/Spring Bootを主軸に、認証基盤・基幹システム開発で約10年の経験を持つバックエンドエンジニア。",
+    "medium": "2015年より基幹系システム開発でキャリアをスタートし、14名のチームリーダーも経験。ゲーム業界でのクライアント開発・企画を経て、現在は認証基盤システムのグローバル拠点統合PJにてPoC開発から本番実装まで一貫して従事。",
+    "long": "基幹系システム開発会社でプログラマとして設計・開発・テストの約5年の経験を積み、14名を率いるチームの開発リーダーも経験。その後、ゲーム業界にてクライアントエンジニアとして1年間、プランナーとして1年間、合計2年間のゲーム開発に携わる。現在はSESとしてWeb与信システム仮想基盤移行案件を要件定義から経験し、認証基盤システムのグローバル拠点統合プロジェクトでPoC開発、本番実装に従事。チーム全体を俯瞰したカバー力と幅広い知的好奇心を強みに、心理的安全性を意識したチーム運営を実践。"
+  },
+  "skills": [
+    {
+      "category": "言語",
+      "items": [
+        { "name": "Java", "years": 7 },
+        { "name": "HTML/CSS", "years": 7 },
+        { "name": "JavaScript", "years": 6 },
+        { "name": "PHP", "years": 2 },
+        { "name": "C#", "years": 2 }
+      ]
+    },
+    {
+      "category": "フレームワーク・ツール",
+      "items": [
+        { "name": "Spring Boot", "years": 4 },
+        { "name": "Struts", "years": 3 },
+        { "name": "Unity", "years": 1 },
+        { "name": "Keycloak", "years": 1 },
+        { "name": "Auth0 (Okta CIC)", "years": 1 },
+        { "name": "Docker", "years": 3 },
+        { "name": "AWS", "years": 2 }
+      ]
+    },
+    {
+      "category": "データベース",
+      "items": [
+        { "name": "Oracle", "years": 6 },
+        { "name": "MySQL", "years": 2 },
+        { "name": "PostgreSQL", "years": 2 }
+      ]
+    },
+    {
+      "category": "その他",
+      "items": [
+        { "name": "Git", "years": 7 },
+        { "name": "GitHub", "years": 5 },
+        { "name": "GitLab", "years": 1 },
+        { "name": "AWS CodeCommit", "years": 1 },
+        { "name": "SVN", "years": 2 },
+        { "name": "Jenkins", "years": 3 },
+        { "name": "Tomcat / Apache", "years": 5 },
+        { "name": "Nginx", "years": 1 },
+        { "name": "Redmine", "years": 5 },
+        { "name": "Backlog", "years": 2 }
+      ]
+    }
+  ],
+  "career": [
+    {
+      "period": "2024年12月〜現在",
+      "title": "認証基盤システムのグローバル拠点統合PJ",
+      "role": "バックエンドエンジニア",
+      "tech": ["Java", "Spring Boot", "Keycloak", "Auth0", "AWS Aurora PostgreSQL"],
+      "description": "PoC開発から要件定義、基本設計、実装、テストまで一貫して担当。テーブル数約100、チーム人数約20名の大規模プロジェクト。"
+    },
+    {
+      "period": "2024年1月〜11月",
+      "title": "Web与信システム仮想基盤移行",
+      "role": "バックエンドエンジニア",
+      "tech": ["Java", "Docker", "Oracle"],
+      "description": "要件定義から実装・テストまで一貫して経験。脆弱性対応、データマスキング、DB移行を担当。"
+    },
+    {
+      "period": "2021年〜2023年",
+      "title": "ゲーム開発",
+      "role": "クライアントエンジニア / プランナー",
+      "tech": ["Unity", "C#", "PHP"],
+      "description": "株式会社ダンクハーツにてクライアントエンジニア（Unity/C#）として1年、バックエンドPHPの不具合調査も担当。株式会社STANDにてプランナーとして大規模著名タイトル開発に参画。"
+    },
+    {
+      "period": "2019年〜2020年",
+      "title": "自治体向け税計算システム開発",
+      "role": "開発リーダー",
+      "tech": ["Java", "Oracle", "Struts"],
+      "description": "14名のチームリーダーとして開発を牽引。OJTとりまとめ、マネジメント、心理的安全性を意識したチーム運営を実践。"
+    },
+    {
+      "period": "2015年〜2020年",
+      "title": "基幹系システム開発",
+      "role": "プログラマ → 開発リーダー",
+      "tech": ["Java", "JavaScript", "Oracle", "Struts", "Spring Boot"],
+      "description": "自治体向け総合行政システムの開発。設計・開発・テストの基礎を確立。新人研修講師（JavaやGit）やインターンシップ対応も担当。"
+    }
+  ],
+  "strengths": [
+    {
+      "title": "チームを俯瞰したカバー力",
+      "description": "トラブルサポートや浮いたタスクの積極的な巻き取り。心理的安全性を意識したチーム運営と、積極的なナレッジシェアでコミュニケーション活発化を図ってきました。",
+      "icon": "team"
+    },
+    {
+      "title": "幅広い知的好奇心と行動力",
+      "description": "心理学の知見を仕事に活かしたナレッジ化。一人旅（パリ、モンサンミッシェル）など強い行動力。音楽教室でピアノとドラムを習い中。ごくまれに小説も書いたりしています。",
+      "icon": "curiosity"
+    },
+    {
+      "title": "強い責任感と何とかする力",
+      "description": "頼まれた仕事は解決しないと夜しか眠れない性格。やるときはしっかりやりきる姿勢で、デスマーチ気味なPJも乗り越えてきた経験があります。",
+      "icon": "responsibility"
+    }
+  ],
+  "contact": {
+    "email": "iwakichisalon@gmail.com",
+    "github": "https://github.com/iwakichi72"
+  }
+}
