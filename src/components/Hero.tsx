@@ -1,18 +1,10 @@
 import profile from "@/data/profile.json";
+import MakoCanvas from "@/components/ui/MakoCanvas";
 
 export default function Hero() {
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 text-center">
-      {/* Komorebi (sunlight through leaves) background */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="komorebi-spot komorebi-1" />
-        <div className="komorebi-spot komorebi-2" />
-        <div className="komorebi-spot komorebi-3" />
-        <div className="komorebi-spot komorebi-4" />
-        <div className="komorebi-spot komorebi-5" />
-        <div className="komorebi-spot komorebi-6" />
-        <div className="komorebi-spot komorebi-7" />
-      </div>
+      <MakoCanvas />
 
       <div className="relative z-10">
         <p className="mb-4 text-sm font-medium tracking-widest text-teal-400 uppercase">
