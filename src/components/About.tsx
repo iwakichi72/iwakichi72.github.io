@@ -14,7 +14,7 @@ export default function About() {
         <FadeInSection>
           <div className="rounded-2xl border border-dark-border bg-dark-card p-8">
             <p className="leading-relaxed text-gray-300">
-              {profile.summaries.long}
+              {profile.summary}
             </p>
           </div>
         </FadeInSection>
