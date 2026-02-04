@@ -12,44 +12,48 @@
         { "name": "Java", "years": 7 },
         { "name": "HTML/CSS", "years": 7 },
         { "name": "JavaScript", "years": 6 },
-        { "name": "PHP", "years": 2 },
-        { "name": "C#", "years": 2 }
-      ]
-    },
-    {
-      "category": "フレームワーク・ツール",
-      "items": [
-        { "name": "Spring Boot", "years": 4 },
-        { "name": "Struts", "years": 3 },
-        { "name": "Unity", "years": 1 },
-        { "name": "Keycloak", "years": 1 },
-        { "name": "Auth0", "years": 1 },
-        { "name": "Docker", "years": 3 },
-        { "name": "AWS", "years": 2 }
+        { "name": "C#", "years": 2 },
+        { "name": "PHP", "years": 2 }
       ]
     },
     {
       "category": "データベース",
       "items": [
         { "name": "Oracle", "years": 6 },
-        { "name": "MySQL", "years": 2 },
-        { "name": "PostgreSQL", "years": 2 }
+        { "name": "PL/SQL", "years": 5 },
+        { "name": "PostgreSQL", "years": 3 },
+        { "name": "MySQL", "years": 2 }
       ]
     },
+    {
+      "category": "フレームワーク・ツール",
+      "items": [
+        { "name": "Struts", "years": 5 },
+        { "name": "Docker", "years": 3 },
+        { "name": "AWS", "years": 2 },
+        { "name": "Spring Boot", "years": 2 },
+        { "name": "Thymeleaf", "years": 2 },
+        { "name": "Unity", "years": 2 },
+        { "name": "Keycloak", "years": 1 },
+        { "name": "Auth0", "years": 1 }
+      ]
+    },
+    
     {
       "category": "その他",
       "items": [
         { "name": "Git", "years": 7 },
         { "name": "GitHub", "years": 5 },
-        { "name": "GitLab", "years": 1 },
-        { "name": "AWS CodeCommit", "years": 1 },
-        { "name": "SVN", "years": 2 },
-        { "name": "Jenkins", "years": 3 },
-        { "name": "Tomcat / Apache", "years": 5 },
-        { "name": "Nginx", "years": 1 },
-        { "name": "JMeter", "years": 2 },
+        { "name": "Apache", "years": 5 },
+        { "name": "Tomcat", "years": 5 },
         { "name": "Redmine", "years": 5 },
-        { "name": "Backlog", "years": 2 }
+        { "name": "Jenkins", "years": 3 },
+        { "name": "JMeter", "years": 2 },
+        { "name": "Backlog", "years": 2 },
+        { "name": "SVN", "years": 2 },
+        { "name": "AWS CodeCommit", "years": 2 },
+        { "name": "Nginx", "years": 2 },
+        { "name": "GitLab", "years": 1 }
       ]
     }
   ],
@@ -58,35 +62,35 @@
       "period": "2024年12月〜現在",
       "title": "認証基盤システムのグローバル拠点統合PJ",
       "role": "バックエンドエンジニア",
-      "tech": ["Java", "Spring Boot", "Keycloak", "Auth0", "Docker", "AWS Aurora PostgreSQL"],
+      "tech": ["Java", "Spring Boot", "Thymeleaf", "Keycloak", "Auth0", "PostgreSQL", "AWS", "Docker"],
       "description": "株式会社AxriからSESで出向し、PoC開発から要件定義、工数見積、基本設計、実装、テストまで一貫して担当。そのほかシステム管理ツールの不具合改修も行い、今に至る。"
     },
     {
       "period": "2024年1月〜11月",
       "title": "Web与信システム仮想基盤移行",
       "role": "バックエンドエンジニア",
-      "tech": ["Java", "Oracle", "Struts"],
+      "tech": ["Java", "Struts", "Oracle", "PostgreSQL"],
       "description": "株式会社AxriからSESで出向し、要件定義から実装・テストまで一貫して担当。脆弱性対応、データマスキング、DB移行を担当。ITエンジニアとしての再出航。"
     },
     {
       "period": "2021年〜2023年",
       "title": "ゲーム開発（ブラウザゲーム：1件、スマホゲーム：2件）",
       "role": "クライアントエンジニア / プランナー",
-      "tech": ["Unity", "C#", "PHP", "MySQL", "Docker"],
+      "tech": ["C#", "Unity", "PHP", "MySQL", "Docker"],
       "description": "株式会社ダンクハーツにて、クライアントエンジニア（Unity/C#）として1年従事、バックエンド（PHP/MySQL）の不具合調査等も担当。その後は株式会社STANDにて、プランナーとして大規模著名タイトル開発に参画。憧れていたゲーム業界へ挑戦するも、理想と現実のギャップに耐え切れず2年でドロップアウト…。"
     },
     {
       "period": "2019年〜2020年",
       "title": "自治体向け税計算システム開発",
       "role": "開発リーダー",
-      "tech": ["Java", "HTML/CSS", "JavaScript", "Oracle", "Struts"],
+      "tech": ["Java", "Struts", "HTML/CSS", "JavaScript", "Oracle"],
       "description": "株式会社RKKCSにて、14名のチームリーダーとして開発を牽引。OJTとりまとめ、マネジメント、心理的安全性を意識したチーム運営を実践。一山越したことで一定の自信が付き、忘れかけていたゲームクリエイターへの夢が再燃する。"
     },
     {
       "period": "2015年〜2020年",
       "title": "自治体向け基幹系システム開発/保守",
       "role": "プログラマ",
-      "tech": ["Java", "HTML/CSS", "JavaScript", "Oracle", "Struts"],
+      "tech": ["Java", "Struts", "HTML/CSS", "JavaScript(jQuery)", "Oracle", "PL/SQL"],
       "description": "株式会社RKKCSにて、自治体向け総合行政システムの開発。設計・開発・テストの基礎を確立。新人研修講師（JavaやGit）やインターンシップ対応も担当。なかなか慣れないながらも着々と仕事をこなし、次期OJT開発リーダーへの白羽の矢が立つ。"
     }
   ],
