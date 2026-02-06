@@ -114,5 +114,37 @@
   "contact": {
     "email": "iwakichisalon@gmail.com",
     "github": "https://github.com/iwakichi72"
-  }
+  },
+  "works": [
+    {
+      "id": "novelang",
+      "title": "Novelang",
+      "subtitle": "英語多読サポートWebアプリ",
+      "summary": "辞書ポップアップとAI補助で、読書中の中断を減らしながら英語多読を継続しやすくする個人開発プロダクト。",
+      "description": "語彙確認と読書再開の導線を重視し、作品ごとの進捗管理とあわせて、日常的に使い続けられる読書体験を目指して改善を継続しています。",
+      "tech": ["Next.js", "TypeScript", "Supabase", "OpenAI API", "Tailwind CSS", "Vercel"],
+      "images": [
+        { "src": "/works/novelang-image1.png", "alt": "Novelang screenshot 1" },
+        { "src": "/works/novelang-image2.png", "alt": "Novelang screenshot 2" },
+        { "src": "/works/novelang-image3.png", "alt": "Novelang screenshot 3" },
+        { "src": "/works/novelang-image4.png", "alt": "Novelang screenshot 4" }
+      ],
+      "url": "https://novelang.vercel.app/"
+    },
+    {
+      "id": "portfolio-site",
+      "title": "F.Iwaki's Portfolio",
+      "subtitle": "個人ポートフォリオサイト",
+      "summary": "実績・スキル・経歴を整理し、短時間で強みを把握できるように設計した自己紹介サイト。",
+      "description": "Worksのポップアップ、スキル可視化、経歴の時系列表示を組み合わせ、訪問者が短時間で内容を確認できる構成にしています。",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "GitHub Pages"],
+      "images": [
+        { "src": "/works/portfolio-image1.png", "alt": "Portfolio screenshot 1" },
+        { "src": "/works/portfolio-image2.png", "alt": "Portfolio screenshot 2" },
+        { "src": "/works/portfolio-image3.png", "alt": "Portfolio screenshot 3" },
+        { "src": "/works/portfolio-image4.png", "alt": "Portfolio screenshot 4" }
+      ],
+      "url": "https://iwakichi72.github.io/"
+    }
+  ]
 }
