@@ -117,6 +117,21 @@
   },
   "works": [
     {
+      "id": "quocole",
+      "title": "Quocole",
+      "subtitle": "名言収集Webアプリ",
+      "summary": "日々の糧となる言葉や、心に残った名言を収集管理する一般公開中のプロダクト。",
+      "description": "元は個人的に名言を日記のようにつける習慣があり、それをアプリ化したもの。毎日新たな名言と様々なアプローチで出会うことができ、既知の名言も管理できるようにしています。AWS周りの活用をお勉強がてら模索しつつ、なるべくコストかからないように機能を最適化中です。",
+      "tech": ["React", "TypeScript", "Tailwind CSS", "Amazon DynamoDB", "Cognito", "Bedrock", "Lambda", "Route53", "GitHub Actions"],
+      "images": [
+        { "src": "/works/quocole-image1.png", "alt": "Quocole screenshot 1" },
+        { "src": "/works/quocole-image2.png", "alt": "Quocole screenshot 2" },
+        { "src": "/works/quocole-image3.png", "alt": "Quocole screenshot 3" },
+        { "src": "/works/quocole-image4.png", "alt": "Quocole screenshot 4" }
+      ],
+      "url": "https://quocole.com/"
+    },
+    {
       "id": "novelang",
       "title": "Novelang",
       "subtitle": "英語多読サポートWebアプリ",
